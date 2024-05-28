@@ -34,7 +34,7 @@ Bottom 4 rows of 80 characters each is a system window, the upper part of the sc
 - 640 x 288 dots in graphics mode.
 
 ## KEYBOARD
-It uses a MERA 7946M-like keyboard. The KB interface consists of 8 data lines and STROBE signal.Keyboard is handled by 8255 on VIDEORAM1 board.
+It uses a MERA 7946M-like keyboard. The KB interface consists of 8 data lines and STROBE signal. Keyboard is handled by 8255 on VIDEORAM1 board.
 
 ## STORAGE  
 ComPAN has Rockwell 6765 FDC and can use up to 4 5,25 inch FDDs.
