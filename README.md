@@ -25,7 +25,7 @@ Since the difference in the size of PROM and 2716 I used as a reference the cont
 
 ## VIDEO SUBSYSTEM
 ComPAN comes in a form we would call 'AIO' today. The screen is monochrome, known are units with green and amber CRTs. It is said that amber CRTs were B/W with amber coating that is not a phosphor. 
-The video parameters are of mono CGA - HSync of 15 kHz, VSync of 50 Hz and a Composite video.
+The video parameters are of composite video  - HSync of 15 kHz, VSync of 50 Hz.
 The video board has no dedicated video controller but is based on three 8255s. It has 64k x 12 bit(!) of screen memory (on VIDEORAM 2 board). 
 It suports underline, inverted, blinking and different chargen modes.
 Bottom 4 rows of 80 characters each is a system window, the upper part of the screen contains:
@@ -37,6 +37,10 @@ Bottom 4 rows of 80 characters each is a system window, the upper part of the sc
 It uses a MERA 7946M-like keyboard. The KB interface consists of 8 data lines and STROBE signal. Keyboard is handled by 8255 on VIDEORAM1 board.
 There was also a dedicated keyboard, based on i8035.
 The keyboard looks like one for MERA 79152 PC but without the status LEDs.
+The dedicated keyboard also uses two more signals. /INT and T0 for the 8085.
+The keyboard matrix is based on RTF hall efect switches, with enable input, - VEB HFO B 461 G.
+More on the hall switches from RFT: https://telcontar.net/KBK/HFO/Hall_ICs
+
 
 ## STORAGE  
 ComPAN has Rockwell 6765 FDC and can use up to 4 5,25 inch FDDs.
