@@ -11,6 +11,9 @@ The '8/16-bit' most likely due to a fact that it has a 8088 card (probably a com
 Comes with two RAM boards of 896K of 'common RAM'. Advertisements I found claims it could a RAM disk.
 It has extended address bus (A0 - A19), so it can address up to 2Mb instead of 64k that 8080 can.
 
+
+![alt text](https://github.com/RetroNora/Elzab_ComPan_8/blob/main/ComPAN.jpg)
+
 ## SCHEMATICS
 
 All the schematics here are reverse engineered by me (only the CRT part are somewhat original, since they are from a MERA 7953N terminal).
@@ -48,7 +51,5 @@ ComPAN has Rockwell 6765 FDC and can use up to 4 5,25 inch FDDs.
 There are modules with two FDDs or one FDD and 20Mb Winchester.
 The Winchester controller is inside the drive module and seems to use a FDD interface to connect to system.
 
-
-![alt text](https://github.com/RetroNora/Elzab_ComPan_8/blob/main/ComPAN.jpg)
 
 
