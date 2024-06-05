@@ -41,6 +41,7 @@ The dedicated keyboard also uses two more signals. /INT and T0 for the 8085.
 The keyboard matrix is based on RTF hall efect switches, with enable input, - VEB HFO B 461 G.
 More on the hall switches from RFT: https://telcontar.net/KBK/HFO/Hall_ICs
 
+![alt text](https://github.com/RetroNora/Elzab_ComPan_8/blob/main/keyb.jpg)
 
 ## STORAGE  
 ComPAN has Rockwell 6765 FDC and can use up to 4 5,25 inch FDDs.
