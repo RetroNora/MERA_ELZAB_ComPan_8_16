@@ -24,7 +24,7 @@ All the schematics here are reverse engineered by me (only the CRT part are some
 
 Eproms and Proms are dumped by me on TL866II.
 There should not be any issues with eprom dumps, but PROMs are dumped like 27xx series EPROM and saved in HEX format. 
-Since the difference in the size of PROM and 2716 I used as a reader preset so the content is looped.
+***NOTE THE DUMPS ARE 8-BIT BUT PROMS ARE 4-BIT***
 
 ## VIDEO SUBSYSTEM
 ComPAN comes in a form we would call 'AIO' today. The screen is monochrome, known are units with green and amber CRTs. It is said that amber CRTs were B/W with amber coating that is not a phosphor. 
