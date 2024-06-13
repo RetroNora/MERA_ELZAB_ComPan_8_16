@@ -47,7 +47,7 @@ More on the hall switches from RFT: https://telcontar.net/KBK/HFO/Hall_ICs
 ![alt text](https://github.com/RetroNora/Elzab_ComPan_8/blob/main/keyb.jpg)
 
 ## STORAGE  
-ComPAN has Rockwell 6765 FDC and can use up to 4 5,25 inch FDDs.
+My ComPAN has Rockwell 6765 FDC and can use up to 4 5,25 inch FDDs.
 There are modules with two FDDs or one FDD and 20Mb Winchester.
 The Winchester controller is inside the drive module and seems to use a FDD interface to connect to system.
 
