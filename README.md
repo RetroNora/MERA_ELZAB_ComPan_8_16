@@ -9,7 +9,7 @@ The exact number of manufactured units is unknown but is estimated at ~100 units
 The number of survived units is unknown, but I'd say a few. 
 The '8/16-bit' most likely due to a fact that it has a 8088 card (probably a compatibility card for DOS software).
 Comes with two RAM boards of 896K of 'common RAM'. Advertisements I found claims it could a RAM disk.
-It has extended address bus (A0 - A19), so it can address up to 2Mb instead of 64k that 8080 can.
+It has extended address bus (A0 - A20), so it can address up to 2Mb instead of 64k that 8080 can.
 
 
 ![alt text](https://github.com/RetroNora/Elzab_ComPan_8/blob/main/ComPAN.jpg)
