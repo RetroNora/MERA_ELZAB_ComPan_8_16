@@ -59,6 +59,15 @@ More on the hall switches from RFT: https://telcontar.net/KBK/HFO/Hall_ICs
 
 ![alt text](https://github.com/RetroNora/Elzab_ComPan_8/blob/main/keyb.jpg)
 
+## MEMORY
+ComPAN has a feature of expanded address bus to 21 lines (A0 - A20), and can address up to 2 Mb of RAM. Since 8080 address space ends on 64k it has to use RAM banking.
+The computer has a i8257 for handling the DMA transfers.
+
+
+![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/RAM%20map.png)
+
+
+
 ## STORAGE  
 My ComPAN has Rockwell 6765 FDC and can use up to 4 5,25 inch FDDs.
 There are modules with two FDDs or one FDD and 20Mb Winchester.
