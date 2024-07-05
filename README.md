@@ -11,7 +11,7 @@ The '8/16-bit' comes from 8088 card that shares system resources with 8080.
 That means I have a dual CPU unit that can run different OSes. 
 ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/ComPAN%20graph.png)
 
-Comes with two RAM boards of 896K of 'common RAM'. Advertisements I found claims it could a RAM disk.
+Comes with two RAM boards of 896K of 'common RAM'. Advertisements I found claims it could use a RAM disk.
 It has extended address bus (A0 - A20), so it can address up to 2Mb instead of 64k that 8080 can.
 ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/ComPAN%20block.png)
 
@@ -41,12 +41,17 @@ Bottom 4 rows of 80 characters each is a system window, the upper part of the sc
 - 640 x 288 dots in graphics mode.
 ## VIDEORAM1 BOARD
   ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/VIDEORAM1.jpg)
+  VIDEORAM1 is responsible for generating the video signal, sync signals, keyboard input and screen memory.
+  
 ## VIDEORAM2 BOARD
   ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/VIDEORAM2.jpg)
-
+  VIDEORAM2 is a screen memory of 64k of 12-bit words. It uses KR565RU6 that are soviet 4116s with just +5V VCC. 
+  CPU also can have a direct connection to VRAM.
+  
+  
 ## KEYBOARD
-It uses a MERA 7946M-like keyboard. The KB interface consists of 8 data lines and STROBE signal. Keyboard is handled by 8255 on VIDEORAM1 board.
-There was also a dedicated keyboard, based on i8035.
+It uses a MERA 7946M-like keyboard or a dedicated keyboard based on MERA 79152PC keyboard. The KB interface consists of 8 data lines and STROBE signal. Keyboard is handled by 8255 on VIDEORAM1 board.
+The dedicated keyboard is based on i8035.
 The keyboard looks like one for MERA 79152 PC but without the status LEDs.
 The dedicated keyboard also uses two more signals. /INT and T0 for the 8085.
 The keyboard matrix is based on RTF hall efect switches, with enable input, - VEB HFO B 461 G.
