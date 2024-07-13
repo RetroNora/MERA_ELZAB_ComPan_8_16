@@ -8,11 +8,12 @@ My unit is from 1988 and has a S/N of 396 and it labelled as 'Microcomputer 8/16
 The exact number of manufactured units is unknown but is estimated at ~100 units a year.
 The number of survived units is unknown, but I'd say a few. 
 The '8/16-bit' comes from 8088 card that shares system resources with 8080.
-That means I have a dual CPU unit that can run different OSes. 
+That means I have a dual CPU unit that should be able to run different OSes. 
+
 ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/ComPAN%20graph.png)
 
 Comes with two RAM boards of 896K of 'common RAM'. Advertisements I found claims it could use a RAM disk.
-It has extended address bus (A0 - A20), so it can address up to 2Mb instead of 64k that 8080 can.
+It has extended address bus (A0 - A20), so it can address up to 2Mb instead of 64k that 8080 can address.
 ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/ComPAN%20block.png)
 
 
