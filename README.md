@@ -32,8 +32,8 @@ There should not be any issues with eprom dumps, but PROMs are dumped like 27xx 
 ***NOTE THE DUMPS ARE 8-BIT BUT PROMS ARE 4-BIT***
 
 ## VIDEO SUBSYSTEM
-ComPAN comes in a form we would call 'AIO' today. The screen is monochrome, known are units with green and amber CRTs. It is said that amber CRTs were B/W with amber coating that is not a phosphor. 
-The video parameters are of composite video  - HSync of 15 kHz, VSync of 50 Hz.
+ComPAN comes in a form we would call 'AllInOne' today. The screen is monochrome, known are units with green and amber CRTs. It is said that amber CRTs were B/W with amber coating that is not a phosphor. 
+The video parameters are of composite video - HSync of 15 kHz, VSync of 50 Hz.
 The video board has no dedicated video controller but is based on three 8255s. It has 64k x 12 bit(!) of screen memory (on VIDEORAM 2 board). 
 It suports underline, inverted, blinking and different chargen modes.
 Bottom 4 rows of 80 characters each is a system window, the upper part of the screen contains:
@@ -42,11 +42,11 @@ Bottom 4 rows of 80 characters each is a system window, the upper part of the sc
 - 640 x 288 dots in graphics mode.
 ## VIDEORAM1 BOARD
   ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/VIDEORAM1.jpg)
-  VIDEORAM1 is responsible for generating the video signal, sync signals, keyboard input and screen memory.
+  VIDEORAM1 is responsible for generating the video signal, sync signals, keyboard input and interfacing to screen memory.
   
 ## VIDEORAM2 BOARD
   ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/VIDEORAM2.jpg)
-  VIDEORAM2 is a screen memory of 64k of 12-bit words. It uses KR565RU6 that are soviet 4116s with just +5V VCC. 
+  VIDEORAM2 is a screen memory of 64k of 12-bit words. It uses KR565RU6 that are soviet 4116s with just single VCC of +5V. 
   CPU also can have a direct connection to VRAM.
   
   
@@ -63,6 +63,9 @@ More on the hall switches from RFT: https://telcontar.net/KBK/HFO/Hall_ICs
 ## MEMORY
 ComPAN has a feature of expanded address bus to 21 lines (A0 - A20), and can address up to 2 Mb of RAM. Since 8080 address space ends on 64k it has to use RAM banking.
 The computer has a i8257 for handling the DMA transfers.
+Mine unit got two 128/512k RAM boards. One got full 512k, the other 384k. 
+It seems that the board could be populated with 4116 (128k) or 4164 (512k).
+It has jumpers that need to be set according to ICs used.
 
 
 ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/RAM%20map.png)
