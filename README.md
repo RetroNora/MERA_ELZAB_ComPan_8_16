@@ -41,15 +41,24 @@ Bottom 4 rows of 80 characters each is a system window, the upper part of the sc
 - 30 rows of 80 chars in char-graphics mode,
 - 640 x 288 dots in graphics mode.
 ## VIDEORAM1 BOARD
-  ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/VIDEORAM1.jpg)
   VIDEORAM1 is responsible for generating the video signal, sync signals, keyboard input and interfacing to screen memory.
   
+  ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/VIDEORAM1.jpg)
+
+  
 ## VIDEORAM2 BOARD
-  ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/VIDEORAM2.jpg)
   VIDEORAM2 is a screen memory of 64k of 12-bit words. It uses KR565RU6 that are soviet 4116s with just single VCC of +5V. 
   CPU also can have a direct connection to VRAM.
+  It also comes with three 2114 (here TMM314AP) so 1024x12 SRAM.
   
+  ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/VIDEORAM2.jpg)
+
   
+##  8088/8087 board
+This is a special board that makes my ComPAN 8/16bit microcomputer.
+
+ ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/8088%20board.jpg)
+ 
 ## KEYBOARD
 It uses a MERA 7946M-like keyboard or a dedicated keyboard based on MERA 79152PC keyboard. The KB interface consists of 8 data lines and STROBE signal. Keyboard is handled by 8255 on VIDEORAM1 board.
 The dedicated keyboard is based on i8035.
