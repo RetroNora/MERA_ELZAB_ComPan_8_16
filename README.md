@@ -7,13 +7,13 @@ ComPAN 8 was designed at the Institute of Industry Automation Systems PAN in Gli
 My unit is from 1988 and has a S/N of 396 and it labelled as 'Microcomputer 8/16-bit'. 
 The exact number of manufactured units is unknown but is estimated at ~100 units a year.
 The number of survived units is unknown, but I'd say a few. 
-The '8/16-bit' comes from 8088 card that shares system resources with 8080.
+The '8/16-bit' comes from i8088 card that shares system resources with i8080.
 That means I have a dual CPU unit that should be able to run different OSes. 
 
 ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/ComPAN%20graph.png)
 
 Comes with two RAM boards of 896K of 'common RAM'. Advertisements I found claims it could use a RAM disk.
-It has extended address bus (A0 - A20), so it can address up to 2Mb instead of 64k that 8080 can address.
+It has extended address bus (A0 - A20), so it can address up to 2Mb instead of 64k that i8080 can address.
 ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/ComPAN%20block.png)
 
 
@@ -56,8 +56,8 @@ Bottom 4 rows of 80 characters each is a system window, the upper part of the sc
   
 ##  8088/8087 board
 This is a special board that makes my ComPAN 8/16bit microcomputer. This card places my unit somewhere in between ComPAN - 8 and ComPAN-16 that never entered mass production. 
-The unit is from 1988 but I found mentions about 8088 card from as early as 1986.
-The BIOS for ComPan 8088 card was made by ZSAK PAN Software Corporation and has a compilation date of 11/08/82.
+The unit is from 1988 but I found mentions about i8088 card from as early as 1986.
+The BIOS for ComPan i8088 card was made by ZSAK PAN Software Corporation and has a compilation date of 11/08/82.
 I don't know how many of ComPANs that survived to today are 8/16 model.
 The BIOS also mentions colour graphic/ XT keyboard and seems to have HDD handling procedures. 
 
@@ -65,10 +65,10 @@ The BIOS also mentions colour graphic/ XT keyboard and seems to have HDD handlin
  ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/8088%20board.jpg)
  
 ## KEYBOARD
-It uses a MERA 7946M-like keyboard or a dedicated keyboard based on MERA 79152PC keyboard. The KB interface consists of 8 data lines and STROBE signal. Keyboard is handled by 8255 on VIDEORAM1 board.
+It uses a MERA 7946M-like keyboard or a dedicated keyboard based on MERA 79152PC keyboard. The KB interface consists of 8 data lines and STROBE signal. Keyboard is handled by i8255 on VIDEORAM1 board.
 The dedicated keyboard is based on i8035.
 The keyboard looks like one for MERA 79152 PC but without the status LEDs.
-The dedicated keyboard also uses two more signals. /INT and T0 for the 8085.
+The dedicated keyboard also uses two more signals. /INT and T0 for the i8085.
 The keyboard matrix is based on RTF hall efect switches, with enable input, - VEB HFO B 461 G.
 More on the hall switches from RFT: https://telcontar.net/KBK/HFO/Hall_ICs
 
