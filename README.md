@@ -55,7 +55,12 @@ Bottom 4 rows of 80 characters each is a system window, the upper part of the sc
 
   
 ##  8088/8087 board
-This is a special board that makes my ComPAN 8/16bit microcomputer.
+This is a special board that makes my ComPAN 8/16bit microcomputer. This card places my unit somewhere in between ComPAN - 8 and ComPAN-16 that never entered mass production. 
+The unit is from 1988 but I found mentions about 8088 card from as early as 1986.
+The BIOS for ComPan 8088 card was made by ZSAK PAN Software Corporation and has a compilation date of 11/08/82.
+I don't know how many of ComPANs that survived to today are 8/16 model.
+The BIOS also mentions colour graphic/ XT keyboard and seems to have HDD handling procedures. 
+
 
  ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/8088%20board.jpg)
  
@@ -82,9 +87,13 @@ It has jumpers that need to be set according to ICs used.
 
 
 ## STORAGE  
-My ComPAN has Rockwell 6765 FDC and can use up to 4 5,25 inch FDDs.
+My ComPAN has Rockwell 6765 FDC and can use up to 4 5,25  or 8 inch FDDs.
+The FDC is located on I/O board with the FDD connectors on the back of the unit. 
+It seems to use standard Shugatr interface, for FDD there is no logic inside the drive module, just a cable pass thru. 
 There are modules with two FDDs or one FDD and 20Mb Winchester.
 The Winchester controller is inside the drive module and seems to use a FDD interface to connect to system.
+
+
 
 
 
