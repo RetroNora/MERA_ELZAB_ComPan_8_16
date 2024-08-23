@@ -100,8 +100,22 @@ It has jumpers that need to be set according to ICs used.
 My ComPAN has Rockwell 6765 FDC and can use up to 4 5,25  or 8 inch FDDs.
 The FDC is located on I/O board with the FDD connectors on the back of the unit. 
 It seems to use standard Shugatr interface, for FDD there is no logic inside the drive module, just a cable pass thru. 
-There are modules with two FDDs or one FDD and 20Mb Winchester.
-The Winchester controller is inside the drive module and seems to use a FDD interface to connect to system.
+There are modules with two FDDs or one FDD and 21Mb Winchester.
+The Winchester controller(WD1010) is inside the drive module and seems to use a FDD interface to connect to system.
+
+## SOFTWARE
+By MFM Archiver/ Emulator from pdp8online (https://www.pdp8online.com/mfm/mfm.shtml) I was able to copy contents of one of my 21Mb drives (the second had a head crash, probably while still operating in the first owner).
+I was able to recover a system partition of 
+
+**The ComPAN-16 Personal Computer DOS (IBM compatible)**
+
+**Version 3.10 Implemented by ZSAK-PAN 1985, 1986, 1987**
+
+Sadly the drive had no computer-specific software, just a copy of Norton Commander and a polish-made antivirus software.
+Recovering a boot floppy image is just a matter of time.
+
+ 
+
 
 
 
