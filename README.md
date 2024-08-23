@@ -6,7 +6,7 @@ ComPAN 8 is an 8-bit Polish microcomputer produced in the 1980s at the MERA-ELZA
 ComPAN 8 was designed at the Institute of Industry Automation Systems PAN in Gliwice.
 My unit is from 1988 and has a S/N of 396 and it labelled as 'Microcomputer 8/16-bit'. 
 The exact number of manufactured units is unknown but is estimated at ~100 units a year.
-The number of survived units is unknown, but I'd say a few. 
+The number of survived units is unknown, I know about ~15 units. 
 The '8/16-bit' comes from i8088 card that shares system resources with i8080.
 That means I have a dual CPU unit that should be able to run different OSes. 
 
