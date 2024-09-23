@@ -29,7 +29,7 @@ GND		- 26 [		]76 - 		GND
 /IRQ4		- 29 [		]79 - 		/IRQ5
 /IR16		- 30 [		]80 - 		/IRQ7
 GND		- 31 [		]81 - 		GND
-RESET		- 32 [		]82 - 		
+RESET		- 32 [		]82 - 		RDYIN
 		- 33 [		]83 - 		
 DRQ2		- 34 [		]84 -		/DACK2
 DRQ3		- 35 [		]85 - 		/DACK3
