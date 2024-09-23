@@ -34,7 +34,7 @@ RESET		- 32 [		]82 - 		RDYIN
 DRQ2		- 34 [		]84 -		/DACK2
 DRQ3		- 35 [		]85 - 		/DACK3
 HRQ		- 36 [		]86 - 		HLDA
-		- 37 [		]87 - 		
+SYSCLCK		- 37 [		]87 - 		
 TC		- 38 [		]88 - 		MARK	
 GND		- 39 [		]89 - 		GND
 GND 		- 40 [		]90 - 		GND
