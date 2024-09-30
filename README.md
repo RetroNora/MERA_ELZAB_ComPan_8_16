@@ -31,13 +31,16 @@ Eproms and Proms are dumped by me on TL866II.
 There should not be any issues with eprom dumps, but PROMs are dumped like 27xx series EPROM and saved in HEX format. 
 ***NOTE THE DUMPS ARE 8-BIT BUT PROMS ARE 4-BIT***
 
-## CPU (i8080) BOARD
+## 8-bit CPU (i8080) BOARD
 This board comes with i8080 CPU, i8224 clock generator, i8228 system controller and system ROM. This board also has 2k of SRAM used to test the system on boot even if RAM on RAM Board is failed.
-The DMA handling and expansion of address bus happens to this board. i8257 DMA controller and 7 i8212 are responsible for it. The i8080 board is equiped with i8259 IRQ controller, the system has 8 IRQs. 
-This board comes with two i8253 programable timers (with unknown for now role).
+The DMA handling and expansion of address bus happens to this board. i8257 DMA controller and 7 i8212 are responsible for it. Each DMA channel got it's 8212 (8257 supplies the system with 4 DMA channels). The i8080 board is equiped with i8259 IRQ controller, the system has 8 IRQs. 
+This board comes with two i8253 programable timers.
 Also two RS232C serial ports are handled by CPU board.
 
 ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/8080%20CPU.jpg)
+
+Address decoding/ select logic is made on 5 82S129 (256x4 PROM) and one 74138. 
+![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/PROM_DUMPS/PROCESOR_8080/8080_PROM.jpg)
 
 
 ## VIDEO SUBSYSTEM
