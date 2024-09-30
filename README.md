@@ -44,7 +44,7 @@ Address decoding/ select logic is made on 5 82S129 (256x4 PROM) and one 74138.
 
 
 ## VIDEO SUBSYSTEM
-ComPAN comes in a form we would call 'AllInOne' today. The screen is monochrome, known are units with green and amber CRTs. It is said that amber CRTs were B/W with amber coating that is not a phosphor. 
+ComPAN comes in a MERA 79xx series terminal case (slightly bigger than standard terminal). The screen is monochrome, known are units with green and amber CRTs. It is said that amber CRTs were B/W with amber coating that is not a phosphor. 
 The video parameters are of composite video - HSync of 15,625 kHz, VSync of 50 Hz.
 The video board has no dedicated video controller but is based on three 8255s. It has 64k x 12 bit(!) of screen memory (on VIDEORAM 2 board). 
 It suports underline, inverted, blinking and different chargen modes.
