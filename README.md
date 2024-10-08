@@ -14,10 +14,28 @@ That means I have a dual CPU unit that should be able to run different OSes.
 
 Comes with two RAM boards of 896K of 'common RAM'. Advertisements I found claims it could use a RAM disk.
 It has extended address bus (A0 - A20), so it can address up to 2Mb instead of 64k that i8080 can address.
+
+The extension of address bus is achieved on 8080 board (in fact they are outputs of 8212s). Additional address bits are handled by PROMs (on boards that they need it)
 ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/ComPAN%20block.png)
 
 
 ![alt text](https://github.com/RetroNora/Elzab_ComPan_8/blob/main/ComPAN.jpg)
+
+## P1/P2 CONNECTORS
+Each card comes with two 92 contact card edge connectors. P1 at the top of the board and P2 at the bottom. P1 is a system bus connector (address + data + IRQs + control signals). It has the same pinout on every board. 
+P2 is dedicated to each board role, and the pinout differs board to board. The boards are connected with backplane. Each slot is dedicated to specyfic card type, connecotrs are keyed.
+The layout is:
+[         CRT MODULE        ]
+[1][2][3][4] PSU [5][6][7][8]
+1 - VIDEORAM 1,
+2 - VIDEORAM 2,
+3 - 8088 BOARD,
+4 - EMPTY,
+5 - I/O BOARD,
+6 - RAM,
+7 - RAM,
+8 - 8080 BOARD.
+
 
 ## SCHEMATICS
 
@@ -44,7 +62,7 @@ Address decoding/ select logic is made on 5 82S129 (256x4 PROM) and one 74138.
 
 
 ## VIDEO SUBSYSTEM
-ComPAN comes in a MERA 79xx series terminal case (slightly bigger than standard terminal). The screen is monochrome, known are units with green and amber CRTs. It is said that amber CRTs were B/W with amber coating that is not a phosphor. 
+ComPAN comes in a MERA 79xx series terminal case (slightly bigger than standard terminal). The screen is monochrome, known are units with green and amber CRTs. It is said that amber CRTs were B/W with amber coating outside the tube (not phosphor). 
 The video parameters are of composite video - HSync of 15,625 kHz, VSync of 50 Hz.
 The video board has no dedicated video controller but is based on three 8255s. It has 64k x 12 bit(!) of screen memory (on VIDEORAM 2 board). 
 It suports underline, inverted, blinking and different chargen modes.
@@ -54,7 +72,7 @@ Bottom 4 rows of 80 characters each is a system window, the upper part of the sc
 - 640 x 288 dots in graphics mode.
 ## VIDEORAM1 BOARD
   VIDEORAM1 is responsible for generating the video signal, sync signals, keyboard input and interfacing to screen memory.
-  Three gold K573RF2 EPROMS at the bottom contain ASCII/ semigraphics and alt graphics.
+  Three golden K573RF2 EPROMS at the bottom contain ASCII/ semigraphics and alt graphics.
   
   ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/VIDEORAM1.jpg)
 
