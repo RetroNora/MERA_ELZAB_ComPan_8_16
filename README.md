@@ -15,7 +15,8 @@ That means I have a dual CPU unit that should be able to run different OSes.
 Comes with two RAM boards of 896K of 'common RAM'. Advertisements I found claims it could use a RAM disk.
 It has extended address bus (A0 - A20), so it can address up to 2Mb instead of 64k that i8080 can address.
 
-The extension of address bus is achieved on 8080 board (in fact they are outputs of 8212s). Additional address bits are handled by PROMs (on boards that they need it)
+The extension of address bus is achieved on 8080 board (in fact they are outputs of 8212s). Additional address bits are handled by PROMs (on boards that they need it).
+
 ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/ComPAN%20block.png)
 
 
