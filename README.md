@@ -27,15 +27,25 @@ Each card comes with two 92 contact card edge connectors. P1 at the top of the b
 P2 is dedicated to each board role, and the pinout differs board to board. The boards are connected with backplane. Each slot is dedicated to specyfic card type, connecotrs are keyed.
 The layout is:
 [         CRT MODULE        ]
+
 [1][2][3][4] PSU [5][6][7][8]
+
 1 - VIDEORAM 1,
+
 2 - VIDEORAM 2,
+
 3 - 8088 BOARD,
+
 4 - EMPTY,
+
 5 - I/O BOARD,
+
 6 - RAM,
+
 7 - RAM,
+
 8 - 8080 BOARD.
+
 
 
 ## SCHEMATICS
