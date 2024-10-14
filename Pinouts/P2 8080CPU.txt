@@ -1,41 +1,41 @@
-GND         - 1  [--------]51 -     GND	
-+5V         - 2  [        ]52 -     +5V
-NC          - 3  [        ]53 - 		NC
-VCC-        - 4  [        ]54 - 		NC
-VCC+        - 5  [        ]55 - 		NC	
-GND         - 6  [        ]56 - 		GND
-RESIN       - 7  [        ]57 - 		SYSCLK
-NC          - 8  [        ]58 -		RUN_LED
-NC          - 9  [        ]59 - 		HOLD_LED
-NC          - 10 [        ]60 -		NC
-8080HLDA    - 11 [        ]61 -		8080HOLD 		
-NC          - 12 [        ]62 -		NC
-NC          - 13 [        ]63 - 		NC
-IRQ_CAS2    - 14 [        ]64 - 		NC
-IRQ_CAS0    - 15 [        ]65 - 		NC
-IRQ_CAS1    - 16 [        ]66 - 		NC
-NC          - 17 [        ]67 -		NC
-NC          - 18 [        ]68 - 		NC
-???         - 19 [        ]69 -		NC
-???         - 20 [        ]70 - 		NC
-NC          - 21 [				]71 -		NC
-NC          - 22 [				]72 - 		NC
-NC          - 23 [				]73 - 		NC
-/RxD2       - 24 [				]74 - 		TxD2
-/DSR2       - 25 [				]75 - 		/DTR2
-/CTS2       - 26 [				]76 - 		/RTS2
-ToJumper    - 27 [				]77 -		/TxC/RxC2
-NC          - 28 [				]78 - 		NC_pulled_to_+5V
-NC          - 29 [				]79 - 		G2_1
-NC          - 30 [				]80 - 		/CTS2(buff)
-NC          - 31 [				]81 - 		NC
-TxRxC(buff) - 32 [				]82 - 		NC
-NC          - 33 [				]83 - 		NC
-RxD1        - 34 [				]84 -		TxD1
-/DSR1       - 35 [				]85 - 		/DTR1
-/CTS1       - 36 [				]86 - 		/RTS1
-ToJumper    - 37 [				]87 - 		/TxC/RxC1
-/TC         - 38 [				]88 - 		/MARK	
-GND         - 39 [				]89 - 		GND
-+5V         - 40 [				]90 - 		+5V
-GND         - 41 [--------]91 - 		GND
+GND         - 1  [--------] 51 -     GND	
++5V         - 2  [        ] 52 -     +5V
+NC          - 3  [        ] 53 - 		NC
+VCC-        - 4  [        ] 54 - 		NC
+VCC+        - 5  [        ] 55 - 		NC	
+GND         - 6  [        ] 56 - 		GND
+RESIN       - 7  [        ] 57 - 		SYSCLK
+NC          - 8  [        ] 58 -		RUN_LED
+NC          - 9  [        ] 59 - 		HOLD_LED
+NC          - 10 [        ] 60 -		NC
+8080HLDA    - 11 [        ] 61 -		8080HOLD 		
+NC          - 12 [        ] 62 -		NC
+NC          - 13 [        ] 63 - 		NC
+IRQ_CAS2    - 14 [        ] 64 - 		NC
+IRQ_CAS0    - 15 [        ] 65 - 		NC
+IRQ_CAS1    - 16 [        ] 66 - 		NC
+NC          - 17 [        ] 67 -		NC
+NC          - 18 [        ] 68 - 		NC
+???         - 19 [        ] 69 -		NC
+???         - 20 [        ] 70 - 		NC
+NC          - 21 [        ] 71 -		NC
+NC          - 22 [        ] 72 - 		NC
+NC          - 23 [        ] 73 - 		NC
+/RxD2       - 24 [        ] 74 - 		TxD2
+/DSR2       - 25 [        ] 75 - 		/DTR2
+/CTS2       - 26 [        ] 76 - 		/RTS2
+ToJumper    - 27 [        ] 77 -		/TxC/RxC2
+NC          - 28 [        ] 78 - 		NC_pulled_to_+5V
+NC          - 29 [        ] 79 - 		G2_1
+NC          - 30 [        ] 80 - 		/CTS2(buff)
+NC          - 31 [        ] 81 - 		NC
+TxRxC(buff) - 32 [        ] 82 - 		NC
+NC          - 33 [        ] 83 - 		NC
+RxD1        - 34 [        ] 84 -		TxD1
+/DSR1       - 35 [        ] 85 - 		/DTR1
+/CTS1       - 36 [        ] 86 - 		/RTS1
+ToJumper    - 37 [        ] 87 - 		/TxC/RxC1
+/TC         - 38 [        ] 88 - 		/MARK	
+GND         - 39 [        ] 89 - 		GND
++5V         - 40 [        ] 90 - 		+5V
+GND         - 41 [--------] 91 - 		GND
