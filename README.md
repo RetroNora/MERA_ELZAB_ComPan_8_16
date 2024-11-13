@@ -83,9 +83,28 @@ Bottom 4 rows of 80 characters each is a system window, the upper part of the sc
 - 24 rows of 80 chars in char only mode,
 - 30 rows of 80 chars in char-graphics mode,
 - 640 x 288 dots in graphics mode.
+
 ## VIDEORAM1 BOARD
   VIDEORAM1 is responsible for generating the video signal, sync signals, keyboard input and interfacing to screen memory.
   Three golden K573RF2 EPROMS at the bottom contain ASCII/ semigraphics and alt graphics.
+  
+  The contents of these RF2s:
+
+GZASCII
+
+  ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Fonts/GZASCII.jpg)
+
+GZSEMI
+
+  ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Fonts/GZSEMI.jpg)
+
+GZALT
+
+  ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Fonts/GZALT.jpg)
+
+  (I got these set of fonts thanks to https://github.com/technomancer-lv )
+
+  
   
   ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/VIDEORAM1.jpg)
 
