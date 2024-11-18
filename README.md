@@ -48,7 +48,7 @@ The layout is:
 
 8 - 8080 BOARD.
 
-
+The press releases about ComPAN show different layout, I think it's due to ComPAN 8 and ComPAN 8/16 differences.
 
 ## SCHEMATICS
 
@@ -63,8 +63,8 @@ There should not be any issues with eprom dumps, but PROMs are dumped like 27xx 
 ***NOTE THE DUMPS ARE 8-BIT BUT PROMS ARE 4-BIT***
 
 ## 8-bit CPU (i8080) BOARD
-This board comes with i8080 CPU, i8224 clock generator, i8228 system controller and system ROM. This board also has 2k of SRAM used to test the system on boot even if RAM on RAM Board is failed.
-The DMA handling and expansion of address bus happens to this board. i8257 DMA controller and 7 i8212 are responsible for it. Each DMA channel got it's 8212 (8257 supplies the system with 4 DMA channels). The i8080 board is equiped with i8259 IRQ controller, the system has 8 IRQs. 
+This board comes with i8080 CPU, i8224 clock generator, i8228 system controller and system ROM. This board also has 2k of SRAM used to test the system on boot even if RAM on RAM Board has failed (Common RAM error).
+The DMA handling and expansion of address bus (16 --> 21) happens to this board. i8257 DMA controller and 7 i8212 are responsible for it. Each DMA channel got it's own 8-bit I/O port (8212), 8257 supplies the system with 4 DMA channels. The i8080 board is equiped with i8259 IRQ controller, the system has 8 IRQs. 
 This board comes with two i8253 programable timers.
 Also two RS232C serial ports are handled by CPU board.
 
@@ -128,17 +128,18 @@ The BIOS also mentions colour graphic/ XT keyboard and seems to have HDD handlin
  ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/8088%20board.jpg)
  
 ## KEYBOARD
-It uses a MERA 7946M-like keyboard or a dedicated keyboard based on MERA 79152PC keyboard. The KB interface consists of 8 data lines and STROBE signal. Keyboard is handled by i8255 on VIDEORAM1 board.
+It uses a MERA 7946M-like keyboard or a dedicated keyboard based on MERA 79152PC keyboard. The parallel keyboard interface consists of 8 data lines and STROBE signal. Keyboard is handled by i8255 on VIDEORAM1 board.
 The dedicated keyboard is based on i8035.
-The keyboard looks like one for MERA 79152 PC but without the status LEDs.
 The dedicated keyboard also uses two more signals. /INT and T0 for the i8085.
 The keyboard matrix is based on RTF hall efect switches, with enable input, - VEB HFO B 461 G.
 More on the hall switches from RFT: https://telcontar.net/KBK/HFO/Hall_ICs
 
+Commercials and BIOS strings mention PC-XT style keyboard option. 
+
 ![alt text](https://github.com/RetroNora/Elzab_ComPan_8/blob/main/keyb.jpg)
 
 ## MEMORY
-ComPAN has a feature of expanded address bus to 21 lines (A0 - A20), and can address up to 2 Mb of RAM. Since 8080 address space ends on 64k it has to use RAM banking.
+ComPAN has a feature of expanded address bus to 21 lines (A0 - A20), and can address up to 2 MB of RAM. Since 8080 address space ends on 64k it has to use RAM banking.
 The computer has a i8257 for handling the DMA transfers.
 Mine unit got two 128/512k RAM boards. One got full 512k, the other 384k. 
 It seems that the board could be populated with 4116 (128k) or 4164 (512k).
