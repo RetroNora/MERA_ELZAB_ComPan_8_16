@@ -25,7 +25,7 @@ NC          - 23 [        ] 73 -     NC
 /DSR2       - 25 [        ] 75 -     /DTR2
 /CTS2       - 26 [        ] 76 -     /RTS2
 ToJumper    - 27 [        ] 77 -     /TxC/RxC2
-NC          - 28 [        ] 78 -     NC_pulled_to_+5V
+NC          - 28 [        ] 78 -     +5V pullup
 NC          - 29 [        ] 79 -     G2_1
 NC          - 30 [        ] 80 -     /CTS2(buff)
 NC          - 31 [        ] 81 -     NC
