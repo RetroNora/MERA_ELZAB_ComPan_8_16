@@ -102,7 +102,7 @@ GZALT
 
   ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Fonts/GZALT.jpg)
 
-  (I got these set of fonts thanks to https://github.com/technomancer-lv )
+  (I got these set of fonts thanks to help of [technomancer-lv ](https://github.com/technomancer-lv). )
 
   
   
