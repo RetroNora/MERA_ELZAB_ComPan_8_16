@@ -16,7 +16,9 @@ The '8/16-bit' comes from i8088 card that shares system resources with i8080.
 
 That means I have a dual CPU unit that should be able to run different OSes. 
 
-![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/ComPAN%20graph.png)
+<p align="center">
+<img src="https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/ComPAN%20graph.png" />
+</p>
 
 Comes with two RAM boards of 896K of 'common RAM'. Advertisements I found claims it could use a RAM disk.
 It has extended address bus (A0 - A20), so it can address up to 2Mb instead of 64k that i8080 can address.
