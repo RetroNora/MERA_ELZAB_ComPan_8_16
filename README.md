@@ -8,9 +8,11 @@ My unit is from 1988 and has a S/N of 396 and it labelled as 'Microcomputer 8/16
 The exact number of manufactured units is unknown but is estimated at ~100 units a year.
 The number of survived units is unknown, I know about ~15 units. 
 The '8/16-bit' comes from i8088 card that shares system resources with i8080.
+
 <p align="center">
-![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/ComPAN_plate.jpg)
+  <img src="[http://some_place.com/image.png](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/ComPAN_plate.jpg)" />
 </p>
+
 
 That means I have a dual CPU unit that should be able to run different OSes. 
 
