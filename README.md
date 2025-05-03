@@ -10,7 +10,7 @@ The number of survived units is unknown, I know about ~15 units.
 The '8/16-bit' comes from i8088 card that shares system resources with i8080.
 
 <p align="center">
-  <img src="[http://some_place.com/image.png](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/ComPAN_plate.jpg)" />
+<img src="https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/ComPAN_plate.jpg" />
 </p>
 
 
