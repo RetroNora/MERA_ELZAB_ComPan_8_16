@@ -25,7 +25,10 @@ It has extended address bus (A0 - A20), so it can address up to 2Mb instead of 6
 
 The extension of address bus is achieved on 8080 board (in fact they are outputs of 8212s). Additional address bits are handled by PROMs (on boards that they need it).
 
-![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/ComPAN%20block.png)
+<p align="center">
+<img src="https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/ComPAN%20block.png" />
+</p>
+
 
 
 ![alt text](https://github.com/RetroNora/Elzab_ComPan_8/blob/main/ComPAN.jpg)
@@ -78,8 +81,12 @@ Also two RS232C serial ports are handled by CPU board.
 
 ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/8080%20CPU.jpg)
 
-Address decoding/ select logic is made on 5 82S129 (256x4 PROM) and one 74138. 
-![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/PROM_DUMPS/PROCESOR_8080/8080_PROM.jpg)
+Address decoding/ select logic is made on 5 82S129 (256x4 PROM) and one 74138.
+
+<p align="center">
+<img src="https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/PROM_DUMPS/PROCESOR_8080/8080_PROM.jpg" />
+</p>
+
 
 
 ## VIDEO SUBSYSTEM
