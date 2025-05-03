@@ -8,6 +8,8 @@ My unit is from 1988 and has a S/N of 396 and it labelled as 'Microcomputer 8/16
 The exact number of manufactured units is unknown but is estimated at ~100 units a year.
 The number of survived units is unknown, I know about ~15 units. 
 The '8/16-bit' comes from i8088 card that shares system resources with i8080.
+![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/ComPAN_plate.jpg)
+
 That means I have a dual CPU unit that should be able to run different OSes. 
 
 ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/ComPAN%20graph.png)
@@ -169,6 +171,14 @@ Sadly the drive had no computer-specific software, just a copy of Norton Command
 Recovering a boot floppy image is just a matter of time.
 
  
+## STATE OF MY UNIT
+
+It seems that on 384k RAM board there is an issue. Without this board the computer is able to make it to boot screen.
+
+![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/ComPAN_boot.jpg)
+
+Sadly, any keyboard input freezes the machine or makes it's screen roll.
+
 
 
 
