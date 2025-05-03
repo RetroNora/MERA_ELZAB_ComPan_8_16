@@ -2,4 +2,6 @@ ComPAN 8 - CRT.pdf - Genuine schematics of CRT module from MERA 79xx series term
 
 c262-3-4-navod.pdf - Schematics of Czechoslovak keyboard by Zbrojovka Brno.
 
+keyboard.pdf - Handmade schematics of dedicated ComPAN 8/16 keyboard.
+
 All other schematics are based on my reverse engineering of ComPAN boards. They might contain errors since I did them with no access to documentation to verify my results.
