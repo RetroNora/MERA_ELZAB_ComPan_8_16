@@ -143,7 +143,11 @@ The BIOS also mentions colour graphic/ XT keyboard and seems to have HDD handlin
  ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/8088%20board.jpg)
  
 ## KEYBOARD
-It uses a MERA 7946M-like keyboard or a dedicated keyboard based on MERA 79152PC keyboard. The parallel keyboard interface consists of 8 data lines and STROBE signal. Keyboard is handled by i8255 on VIDEORAM1 board.
+It uses a MERA 7946M-like keyboard or a dedicated keyboard based on MERA 79152PC keyboard. 
+
+![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/ComPAN_keyboard.png)
+
+The parallel keyboard interface consists of 8 data lines and STROBE signal. Keyboard is handled by i8255 on VIDEORAM1 board.
 The dedicated keyboard is based on i8035.
 The dedicated keyboard also uses two more signals. /INT and T0 for the i8085.
 The keyboard matrix is based on RTF hall efect switches, with enable input, - VEB HFO B 461 G.
