@@ -16,7 +16,8 @@ ComPAN 8 was designed at the Institute of Industry Automation Systems PAN in Gli
 </p>
 
 
-That means I have a dual CPU unit that should be able to run different OSes. 
+16-bit part of the ComPAN runs under PC DOS, meaning it should be, to some extend, IBM PC compatible.
+8-bit part is said to run under for example CP/M or ISIS-II.
 
 <p align="center">
 <img src="https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/ComPAN%20graph.png" />
