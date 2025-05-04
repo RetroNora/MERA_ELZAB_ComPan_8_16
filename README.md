@@ -79,14 +79,14 @@ There should not be any issues with eprom dumps, but PROMs are dumped like 27xx 
 
 Back of the ComPAN unit has I/O connectors:
 
--Klawiatura - keyboard- handled by VIDEORAM1 board,
--R1, R2 - unknown use,
--Dziurkarka - punchtape puncher,
--Czytnik - punchtape reader,
--Drukarka - printer,
--Interfejs FD - FDD/ HDD connector,
--Teletype - teletype,
--2x RS-232C - RS-232C- handled by 8080CPU board.
+- Klawiatura - keyboard- handled by VIDEORAM1 board,
+- R1, R2 - unknown use,
+- Dziurkarka - punchtape puncher,
+- Czytnik - punchtape reader,
+- Drukarka - printer,
+- Interfejs FD - FDD/ HDD connector,
+- Teletype - teletype,
+- 2x RS-232C - RS-232C- handled by 8080CPU board.
 ## 8-bit CPU (i8080) BOARD
 This board comes with i8080 CPU, i8224 clock generator, i8228 system controller and system ROM. This board also has 2k of SRAM used to test the system on boot even if RAM on RAM Board has failed (Common RAM error).
 The DMA handling and expansion of address bus (16 --> 21) happens to this board. i8257 DMA controller and 7 i8212 are responsible for it. Each DMA channel got it's own 8-bit I/O port (8212), 8257 supplies the system with 4 DMA channels. The i8080 board is equiped with i8259 IRQ controller, the system has 8 IRQs. 
