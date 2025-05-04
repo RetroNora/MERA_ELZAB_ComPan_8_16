@@ -73,6 +73,10 @@ Eproms and Proms are dumped by me on TL866II.
 There should not be any issues with eprom dumps, but PROMs are dumped like 27xx series EPROM and saved in HEX format. 
 ***NOTE THE DUMPS ARE 8-BIT BUT PROMS ARE 4-BIT***
 
+## I/O CONNECTORS
+
+![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/ComPAN_IO.png)
+
 ## 8-bit CPU (i8080) BOARD
 This board comes with i8080 CPU, i8224 clock generator, i8228 system controller and system ROM. This board also has 2k of SRAM used to test the system on boot even if RAM on RAM Board has failed (Common RAM error).
 The DMA handling and expansion of address bus (16 --> 21) happens to this board. i8257 DMA controller and 7 i8212 are responsible for it. Each DMA channel got it's own 8-bit I/O port (8212), 8257 supplies the system with 4 DMA channels. The i8080 board is equiped with i8259 IRQ controller, the system has 8 IRQs. 
