@@ -1,5 +1,7 @@
 # MERA ELZAB ComPAN 8/16-bit MICROCOMPUTER
 
+![alt text](https://github.com/RetroNora/Elzab_ComPan_8/blob/main/ComPAN.jpg)
+
 ## SYSTEM OVERVIEW
 
 ComPAN 8 is an 8-bit Polish microcomputer produced in the 1980s at the MERA-ELZAB factory in Zabrze, Poland. 
@@ -31,7 +33,7 @@ The extension of address bus is achieved on 8080 board (in fact they are outputs
 
 
 
-![alt text](https://github.com/RetroNora/Elzab_ComPan_8/blob/main/ComPAN.jpg)
+
 
 ## P1/P2 CONNECTORS
 Each card comes with two 92 contact card edge connectors. P1 at the top of the board and P2 at the bottom. P1 is a system bus connector (address + data + IRQs + control signals). It has the same pinout on every board. 
