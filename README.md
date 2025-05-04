@@ -160,7 +160,7 @@ The BIOS also mentions colour graphic/ XT keyboard and seems to have HDD handlin
  ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/8088%20board.jpg)
  
 ## KEYBOARD
-It uses  MERA 7946M-style keyboard or a dedicated keyboard based on MERA 79152PC keyboard. 
+It uses  MERA 7946M-style keyboard or a dedicated keyboard based on MERA 79152PC keyboard. It can also use Zbrojovka Brno 262.3 style keyboard, like in the pictures.
 
 ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/ComPAN_keyboard.png)
 
