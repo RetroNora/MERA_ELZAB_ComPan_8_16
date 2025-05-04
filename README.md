@@ -75,7 +75,7 @@ There should not be any issues with eprom dumps, but PROMs are dumped like 27xx 
 
 ## I/O CONNECTORS
 
-![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/ComPAN_IO.png)
+![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/ComPAN_IO.jpg)
 
 ## 8-bit CPU (i8080) BOARD
 This board comes with i8080 CPU, i8224 clock generator, i8228 system controller and system ROM. This board also has 2k of SRAM used to test the system on boot even if RAM on RAM Board has failed (Common RAM error).
