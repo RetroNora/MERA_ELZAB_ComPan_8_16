@@ -196,8 +196,11 @@ It has jumpers that need to be set according to ICs used.
 ## STORAGE  
 My ComPAN has Rockwell 6765 FDC and can use up to 4 5,25  or 8 inch FDDs.
 The FDC is located on I/O board with the FDD connectors on the back of the unit. 
-It seems to use standard Shugatr interface, for FDD there is no logic inside the drive module, just a cable pass thru. 
+It seems to use standard Shugart interface, for FDD there is no logic inside the drive module, just a cable pass thru. 
 There are modules with two FDDs or one FDD and 21Mb Winchester.
+
+![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/ComPAN_HDD.jpg)
+
 The Winchester controller(WD1010) is inside the drive module and seems to use a FDD interface to connect to system.
 
 ## SOFTWARE
