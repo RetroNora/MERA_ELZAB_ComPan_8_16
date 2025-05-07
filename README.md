@@ -83,7 +83,7 @@ There should not be any issues with eprom dumps, but PROMs are dumped like 27xx 
 Back of the ComPAN unit has I/O connectors:
 
 - Klawiatura - keyboard- handled by VIDEORAM1 board,
-- R1, R2 - unknown use,
+- R1, R2 - unknown use, R1 is connected to P2 of 8088 board, R2 to P2 of an empty slot,
 - Dziurkarka - punchtape puncher,
 - Czytnik - punchtape reader,
 - Drukarka - printer,
