@@ -1,6 +1,6 @@
          |‾‾‾\
 1 -  +5V | *  \
-         |   * | 14 - INT
+         |   * | 14 - /INT
 2 - KBD0 | *   |
          |   * |
 3 - KBD1 | *   |
@@ -26,4 +26,7 @@
 13 - +12V| *  /
          |__/
 
-KB0 - KB7 - parallel data lines, STROBE - data strobing signal
+KB0 - KB7 - parallel data lines, 
+STROBE - data strobing signal,
++12V - not used, but present,
+T0, /INT - these are connected to according pins of 8035 (INT is negated by 7404).
