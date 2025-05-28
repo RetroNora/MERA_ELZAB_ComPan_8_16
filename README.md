@@ -76,7 +76,16 @@ Eproms and Proms are dumped by me on TL866II.
 There should not be any issues with eprom dumps, but PROMs are dumped like 27xx series EPROM and saved in HEX format. 
 ***NOTE THE DUMPS ARE 8-BIT BUT PROMS ARE 4-BIT***
 
-## I/O CONNECTORS
+## I/O board
+
+![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/Hires/IO_front.jpg)
+
+The I/O board has:
+- 6765 FDC,
+- 2x 8255 PPI,
+- 8251 UART,
+
+# I/O CONNECTORS
 
 ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/ComPAN_IO.jpg)
 
@@ -96,7 +105,7 @@ The DMA handling and expansion of address bus (16 --> 21) happens to this board.
 This board comes with two i8253 programable timers.
 Also two RS232C serial ports are handled by CPU board.
 
-![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/8080%20CPU.jpg)
+![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/Hires/CPU8080_front.jpg)
 
 Address decoding/ select logic is made on 5 82S129 (256x4 PROM) and one 74138.
 
@@ -138,7 +147,7 @@ GZALT
 
   
   
-  ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/VIDEORAM1.jpg)
+  ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/Hires/VIDEORAM1_front.jpg)
 
   
 ## VIDEORAM2 BOARD
@@ -146,7 +155,7 @@ GZALT
   CPU also can have a direct connection to VRAM.
   It also comes with three 2114 (here TMM314AP) so 1024x12 SRAM.
   
-  ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/VIDEORAM2.jpg)
+  ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/Hires/VIDEORAM2_front.jpg)
 
   
 ##  8088/8087 board
@@ -157,7 +166,7 @@ I don't know how many of ComPANs that survived to today are 8/16 model.
 The BIOS also mentions colour graphic/ XT keyboard and seems to have HDD handling procedures. 
 
 
- ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/8088%20board.jpg)
+ ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/Hires/CPU8088_front.jpg)
  
 ## KEYBOARD
 It uses  MERA 7946M-style keyboard or a dedicated keyboard based on MERA 79152PC keyboard. It can also use Zbrojovka Brno 262.3 style keyboard, like in the pictures.
@@ -185,6 +194,11 @@ Commercials and BIOS strings mention PC-XT style keyboard option.
 ComPAN has a feature of expanded address bus to 21 lines (A0 - A20), and can address up to 2 MB of RAM. Since 8080 address space ends on 64k it has to use RAM banking.
 The computer has a i8257 for handling the DMA transfers.
 Mine unit got two 128/512k RAM boards. One got full 512k, the other 384k. 
+
+![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/Hires/RAM384K_front.jpg)
+
+![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/Hires/RAM512K_front.jpg)
+
 It seems that the board could be populated with 4116 (128k) or 4164 (512k).
 It has jumpers that need to be set according to ICs used.
 
