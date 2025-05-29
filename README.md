@@ -151,7 +151,7 @@ GZALT
 
   
 ## VIDEORAM2 BOARD
-  VIDEORAM2 is a screen memory of 64k of 12-bit words. It uses KR565RU6 that are soviet 4116s with just single VCC of +5V. 
+  VIDEORAM2 is a screen memory of 64k of 12-bit words. It uses KR565RU6 that are soviet 2118 clone (16k x 1  RAM with just +5V). 
   CPU also can have a direct connection to VRAM.
   It also comes with three 2114 (here TMM314AP) so 1024x12 SRAM.
   
