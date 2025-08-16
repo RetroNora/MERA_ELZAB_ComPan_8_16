@@ -37,7 +37,7 @@ The extension of address bus is achieved on 8080 board (in fact they are outputs
 
 
 ## P1/P2 CONNECTORS
-Each card comes with two 92 contact card edge connectors. P1 at the top of the board and P2 at the bottom. P1 is a system bus connector (address + data + IRQs + control signals). It has the same pinout on every board. 
+Each card comes with two 82 contact card edge connectors.The original numbering goes like this contacts 1-41 on the solder site and 51-91 on the component side. P1 at the top of the board and P2 at the bottom. P1 is a system bus connector (address + data + IRQs + control signals). It has the same pinout on every board. 
 P2 is dedicated to each board role, and the pinout differs board to board. The boards are connected with backplane. Each slot is dedicated to specyfic card type, connecotrs are keyed. The keying is done with missing ground pins and plastic tabs in slots.
 
 The layout is:
