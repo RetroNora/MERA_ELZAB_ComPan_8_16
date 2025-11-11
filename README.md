@@ -195,7 +195,7 @@ ComPAN has a feature of expanded address bus to 21 lines (A0 - A20), and can add
 The computer has a i8257 for handling the DMA transfers.
 Mine unit got two 128/512k RAM boards. One got full 512k, the other 384k. 
 
-![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/Hires/RAM384K_front.jpg)
+![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/Hires/RAM384K_front.png)
 
 ![alt text](https://github.com/RetroNora/MERA_ELZAB_ComPan_8_16/blob/main/Pics/Hires/RAM512K_front.jpg)
 
